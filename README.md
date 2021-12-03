@@ -14,7 +14,7 @@ Any Arduino Board, Data cable to connect Arduino with PC, 10k Resistor, Breadboa
 </p>
 
 <p align=center>
-  <img src="Resources/Schematic.svg">
+  <img src="Resources/schematic.svg">
   <p align=center>Schematic Diagram</p>
 </p>
 
