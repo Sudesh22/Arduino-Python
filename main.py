@@ -11,7 +11,7 @@ elif __file__:
         curr_path = os.path.dirname(__file__)
 
 try:
-    ser = serial.Serial("COM3", 9600)
+    ser = serial.Serial("COM6", 9600)
 
     class ProgressBar_(QProgressBar):
         def __init__(self, parent=None):
