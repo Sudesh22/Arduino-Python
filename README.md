@@ -12,12 +12,12 @@ Any Arduino Board, Data cable to connect Arduino with PC, 10k Resistor, Breadboa
 ### Testing Connection
 Make sure to enter the correct COM port number in line 14 when connecting the Board to the PC (Mine is COM3)
 
-```
+```C++
 ser = serial.Serial("COM3", 9600)
 ```
 
 The program checks whether Arduino is connected with try except
-```
+```Python
 try:
   ser = serial.Serial("COM3", 9600)
   ...
@@ -50,7 +50,7 @@ Just by adding a bluetooth module to the circuit and with the same Arduino code,
 
 Go to your bluetooth settings in windows and there will be an advance menu where you can find the outgoing COM port number, this is the number you will use in line 14 to open a serial connection to the Bluetooth module. Mine is COM 6 so it will be 
 
-```
+```C++
 ser = serial.Serial("COM6", 9600)
 ```
 
